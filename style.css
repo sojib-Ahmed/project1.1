@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.70)), url("images/donation4.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+ 
+.banner-text {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    right: 20%;
+    font-weight: 700px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.banner-para {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    right: 20%;
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+    color: #fff;
+}
+
+#button {
+    position: relative;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    left: 50%;
+    top: 70%;
+}
+
+.donate-amount {
+    height: 500px;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+
+.donate-text {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.donate-para {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.donate-box {
+
+    display: flex;
+    justify-content: center;
+}
+
+.Taka {
+    background-color: #f8f6f6;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    opacity: .7;
+
+}
+
+#five {
+    background-color: #f4abad;
+    border: 2px solid deeppink;
+}
+
+#small {
+    text-align: center;
+    opacity: .7;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.button2 {
+    position: absolute;
+    left: 46%;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.donate-plan {
+    height: 600px;
+    position: relative;
+}
+
+.heading-plan {
+    text-align: center;
+    font-size: 50px;
+}
+
+.para-plan {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    opacity: .8;
+}
+
+.plan-card {
+    display: flex;
+    height: 400px;
+}
+
+.plan-box {
+    width: 100%;
+    height: 300px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+#card1 {
+    background-color: rgb(250, 224, 228);
+
+}
+
+
+#card2 {
+    background-color: rgb(236, 222, 222);
+}
+
+
+#card3 {
+    background-color: #f7dbdc;
+}
+
+img {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.headline {
+    padding: 15px;
+}
+
+.head-para {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500px;
+    opacity: .6;
+
+}
+
+.your-donate {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+#donate-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.depend-you {
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: 700px;
+}
+
+.depend-para {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600px;
+    opacity: .7;
+}
+
+.button3 {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.they-need-us {
+    display: flex;
+
+}
+
+.need-photo {
+    width: 100%;
+    height: 70%;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.need-headline {
+    font-size: 50px;
+    font-weight: 700px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.need-para {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 10%;
+    margin-right: 5%;
+    opacity: .7;
+}
+
+.update {
+    text-align: center;
+    font-size: 50px;
+
+    font-weight: 700px;
+}
+
+.update-para {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.email-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 15%;
+    background-color: pink;
+}
+
+.email-box {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.email-box input {
+    font-size: 18px;
+    color: gray;
+    border-radius: 8px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(207, 198, 198);
+
+}
+
+.email-box button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightsalmon;
+
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(53, 53, 91);
+}
+
+.humble {
+    text-align: center;
+    font-size: 40px;
+    color: deeppink;
+    font-family: 'Pacifico', cursive;
+}
+
+.gonna-para {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600px;
+
+}
